@@ -5,6 +5,17 @@ All developers must follow these conventions when working with data, code, and d
 
 ---
 
-## 1. Date Format
+#### 1. Date Format
 
-- Use **ISO 8601 standard**:  
+- UI / Display Format: **MM/DD/YYYY**  
+  Eg: *09/29/2025*
+
+#### 2. Employee
+
+- Employee Name: **First Name, Last Name**  
+  Eg: *John, Doe*
+
+#### 3. Company & Store
+
+- Store/Company Name: **Code - Name**  
+  Eg: *900901 - Manchester*
