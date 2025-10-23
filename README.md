@@ -20,6 +20,8 @@ All developers must follow these conventions when working with data, code, and d
 
 - **Employee Name Format:** `First Name, Last Name`  
   *Example:* `John, Doe`
+- **Employee SSN:** `xxx-xx-xxxx`  
+  *Example:* `012-34-5678`
 
 ---
 
@@ -37,8 +39,8 @@ All developers must follow these conventions when working with data, code, and d
 All application data grids must adhere to the following formatting and usability standards.
 
 ### 4.1 Column Naming
-- Use **Title Case** for headers.  
-  *Example:* `First Name`, `Hire Date`, `Total Sales`
+- Use **Title Case** for headers (with currency symbol for currency values).  
+  *Example:* `First Name`, `Hire Date`, `Total Sales ($)`
 - Avoid abbreviations unless industry standard (`ID`, `SKU`, `ZIP Code`).
 - Column names must be **self-explanatory** and **localized for U.S. English**.
 
@@ -54,7 +56,7 @@ All application data grids must adhere to the following formatting and usability
 - Decimal precision:
   - **Currency:** 2 decimal places (`$1,250.00`)
   - **Percentages:** 1 or 2 decimal places (`15.25%`)
-- Negative values shown with a minus sign (no parentheses): `-125.50`
+- Negative values shown with a minus sign or parentheses: `-125.50` | `(125.50)`
 
 ### 4.4 Currency
 - **Currency Symbol:** `$` (U.S. Dollars)  
