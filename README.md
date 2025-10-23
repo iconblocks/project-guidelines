@@ -34,23 +34,34 @@ All developers must follow these conventions when working with data, code, and d
 
 ---
 
-## 4. Grid (Data Table) Formatting Standards – *U.S. Zone*
+## 4. U.S. Address Format
+
+- **UI / Display Format:**  
+  `Street Address, City, State ZIP Code`  
+  *Example:* `123 Main St, Springfield, IL 62704`
+
+- **Database Format:**  
+  Separate fields for each address component:  
+
+---
+
+## 5. Grid (Data Table) Formatting Standards – *U.S. Zone*
 
 All application data grids must adhere to the following formatting and usability standards.
 
-### 4.1 Column Naming
+### 5.1 Column Naming
 - Use **Title Case** for headers (with currency symbol for currency values).  
   *Example:* `First Name`, `Hire Date`, `Total Sales ($)`
 - Avoid abbreviations unless industry standard (`ID`, `SKU`, `ZIP Code`).
 - Column names must be **self-explanatory** and **localized for U.S. English**.
 
-### 4.2 Data Alignment
+### 5.2 Data Alignment
 - **Text:** Left-aligned  
 - **Numbers & Currency:** Right-aligned  
 - **Dates/Times:** Center-aligned  
 - **Checkbox/Boolean Fields:** Center-aligned  
 
-### 4.3 Numeric Format
+### 5.3 Numeric Format
 - Use U.S. standard numbering: comma for thousands, dot for decimal.  
   *Example:* `12,345.67`  
 - Decimal precision:
@@ -58,7 +69,7 @@ All application data grids must adhere to the following formatting and usability
   - **Percentages:** 1 or 2 decimal places (`15.25%`)
 - Negative values shown with a minus sign or parentheses: `-125.50` | `(125.50)`
 
-### 4.4 Currency
+### 5.4 Currency
 - **Currency Symbol:** `$` (U.S. Dollars)  
   *Example:* `$2,450.75`  
 - Symbol should **precede** the number without space.  
